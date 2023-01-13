@@ -20,6 +20,7 @@ public class Dubins_Curve : MonoBehaviour {
 	public float lineWidth = 0.2f;
 	public int numberOfPoints = 20;
 	LineRenderer lineRenderer;
+	
 	// Object position initialization
 	Vector3 startPos = new Vector3(-5,0,0);
 	Vector3 endPos = new Vector3(5,0,0);
@@ -156,9 +157,10 @@ public class Dubins_Curve : MonoBehaviour {
 		}
 	}
 
+
 	//----------------------------------------------------------------------//
 	//----------------------------------------------------------------------//
-	//                     Methods for Dubins Unicycle                      //
+	//                  Methods for Dubins Curve computing                  //
 	//----------------------------------------------------------------------//
 	//----------------------------------------------------------------------//
 
